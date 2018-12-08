@@ -1,5 +1,6 @@
 body {
     background-color: bisque;
+    max-width: 960px;
 }   
 header > h1 {
     color:whitesmoke;
@@ -28,7 +29,7 @@ h3 {
     width: auto;
     height: auto;
 }
-h3.hName {
+h2.hName {
     color: whitesmoke;
     background-color: forestgreen;
     text-transform: uppercase;
