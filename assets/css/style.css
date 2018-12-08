@@ -14,7 +14,7 @@ header > h1 {
 }
 h2 {
     color: forestgreen; 
-    background-color: whitesmoke; 
+    background-color: bisque; 
     text-transform: uppercase; 
     text-align: left;
     width: auto; 
@@ -22,7 +22,7 @@ h2 {
 }
 h3 {
     color: forestgreen;
-    background-color: whitesmoke;
+    background-color: bisque;
     text-transform: uppercase;
     text-align: left;
     width: auto;
@@ -39,13 +39,13 @@ h3.hName {
 
 nav > a {
     display: inline-block; 
-    color: gray; 
+    color: lime; 
     background-color: bisque;
-    align-content: right;
+    text-align: right;
     }
 nav a.active {
         background-color: forestgreen;
-        color: whitesmoke;
+        color: lime;
     }
 nav a:hover:not(.active) {
         background-color: bisque;
