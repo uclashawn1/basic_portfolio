@@ -36,10 +36,10 @@ h3.hName {
 }
 
 nav > a {
-    display: inline; 
+    display: inline-block; 
     color: gray; 
     background-color: bisque;
-    display: inline;
+    align-content: right;
     }
 nav a.active {
         background-color: forestgreen;
@@ -86,4 +86,23 @@ form {
     font-size: small;
     background-color: bisque;
     align-content: left;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;    
+}
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    float: left;
+    width: 20%;
+    padding: 50px;
+}
+.box2 {
+    float: left;
+    width: 80%;
+    padding: 50px;
 }
