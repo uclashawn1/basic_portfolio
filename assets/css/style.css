@@ -1,0 +1,86 @@
+body {
+    background-color: bisque
+}   
+h1 {
+    color:whitesmoke;
+    background-color: forestgreen; 
+    text-transform: uppercase;
+    width: 20%; 
+    height: 20px
+}
+
+h2 {
+    color: forestgreen; 
+    background-color: whitesmoke; 
+    text-transform: uppercase; 
+    text-align: center;
+    width: 100%; 
+    height: 20px
+}
+h3 {
+    color: forestgreen;
+    background-color: whitesmoke;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+}
+h3.hName {
+    color: whitesmoke;
+    background-color: forestgreen;
+    text-transform: uppercase;
+    width: 20%;
+    height: 20px;
+}
+
+nav a {
+    display: inline; 
+    color: gray; 
+    background-color: bisque;
+    }
+nav a.active {
+        background-color: forestgreen;
+        color: whitesmoke;
+    }
+nav a:hover:not(.active) {
+        background-color: bisque;
+        color: gray;
+    }
+img {
+        width: 40px;
+        height: 40px;
+    }
+section > p {
+    background-color: bisque;
+    align-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+div.gallery {
+    margin: 5px;
+    Float: left;
+    border: 1px solid #ccc;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    background-color: bisque;
+    align-content: left;
+}
