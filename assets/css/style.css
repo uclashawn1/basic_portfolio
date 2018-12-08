@@ -1,5 +1,6 @@
 body {
     background-color: bisque;
+    border-color: #dddddd;
     max-width: 960px;
 }   
 header > h1 {
@@ -82,6 +83,8 @@ div.gallery img {
 div.desc {
     padding: 15px;
     text-align: center;
+    background-color: teal;
+    color: whitesmoke;
 }
 
 form {
@@ -114,4 +117,5 @@ footer {
     border-top: 8px solid #4aaaa5;
     font: xx-small;
     text-align: center;
+    background-color: #666666;
 }
