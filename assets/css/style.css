@@ -1,9 +1,11 @@
 body {
     background-color: bisque;
     border-color: #dddddd;
-    max-width: 960px;
+    color: whitesmoke;
+    text-align: left;
+    text-transform: uppercase;
 }   
-header > h1 {
+header > .h1 {
     color:whitesmoke;
     background-color: forestgreen; 
     text-transform: uppercase;
