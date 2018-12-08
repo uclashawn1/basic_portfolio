@@ -107,4 +107,6 @@ form {
 }
 footer {
     border-top: 8px solid #4aaaa5;
+    font: xx-small;
+    text-align: center;
 }
