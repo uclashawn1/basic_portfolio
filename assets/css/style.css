@@ -1,11 +1,11 @@
 body {
-    background-color: bisque
+    background-color:slategray;
 }   
 header > h1 {
     color:whitesmoke;
     background-color: forestgreen; 
     text-transform: uppercase;
-    width: 20%; 
+    width: auto; 
     height: auto;
     display: inline;
 }
@@ -15,7 +15,7 @@ h2 {
     background-color: whitesmoke; 
     text-transform: uppercase; 
     text-align: center;
-    width: 100%; 
+    width: auto; 
     height: auto;
 }
 h3 {
@@ -23,14 +23,14 @@ h3 {
     background-color: whitesmoke;
     text-transform: uppercase;
     text-align: center;
-    width: 100%;
+    width: auto;
     height: auto;
 }
 h3.hName {
     color: whitesmoke;
     background-color: forestgreen;
     text-transform: uppercase;
-    width: 20%;
+    width: auto;
     height: auto;
     display: inline;
 }
