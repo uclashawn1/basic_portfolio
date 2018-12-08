@@ -119,3 +119,8 @@ footer {
     text-align: center;
     background-color: #666666;
 }
+#wrap {
+    background-image: url('/assets/gravel/gravel.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
